@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear tarea</title>
+</head>
+<body>
+{% extends 'base/principal.html' %}
+{% block content %}
+<h1>Crear Tarea</h1>
+<a href="{% url 'tareas' %}">Volver</a>
+
+<form method="POST" action=""> <!--Definimos la acción que realizara este form, sera un POST a la url base https://http://127.0.0.1:8000, por eso action está vacio-->
+  {% csrf_token %} <!--Previene el sistema de ataques Cross-Site Request Forgery (cambiar estado del sistema haciendose apsar por un usuario)-->
+  {{form.as_p}} <!--Mostramos el form como parrafo, aunque tambien podriamos hacerlo como tabla o como columnas-->
+  <input type="submit" value="Enviar"> <!--Agregamos el boton de enviar que indica la creación de la tarea-->
+</form>
+
+{% endblock content %}
+</body>
+</html>
