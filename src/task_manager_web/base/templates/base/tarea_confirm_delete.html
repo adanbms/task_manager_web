@@ -7,12 +7,18 @@
 <body>
 {% extends 'base/principal.html' %}
 {% block content %}
-<a href="{% url 'tareas' %}">Volver</a>
-<form method="POST" action="">
-  {% csrf_token %}
-  <p>Vas a ELIMINAR esta tarea: "{{tarea}}"</p>
-  <input type="submit" value="eliminar">
-</form>
+
+<div class="barra_superior">
+    <a href="{% url 'tareas' %}">&#x1F860; Volver</a>
+</div>
+
+<div class="cuerpo-tarjeta">
+    <form method="POST" action="">
+      {% csrf_token %}
+      <p>Vas a ELIMINAR la tarea: "{{tarea}}"</p>
+      <input class="button" type="submit" value="eliminar">
+    </form>
+</div>
 {% endblock content %}
 </body>
 </html>
