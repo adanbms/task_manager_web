@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac1fb2ce-7feb-41ea-894b-926ebc35d4ec" name="Changes" comment="">
+    <list default="true" id="ac1fb2ce-7feb-41ea-894b-926ebc35d4ec" name="Changes" comment="Update style for all the templates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/principal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/registro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/tarea_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/tarea_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/tarea_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/tarea_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/tarea_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_manager_web/base/templates/base/tarea_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_manager_web/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_manager_web/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +64,19 @@
       <option name="presentableId" value="Default" />
       <updated>1733849398465</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update style for all the templates">
+      <option name="closed" value="true" />
+      <created>1733981705068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733981705068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update style for all the templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update style for all the templates" />
   </component>
 </project>
